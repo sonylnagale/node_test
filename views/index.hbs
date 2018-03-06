@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<p>Hello. Welcome to {{title}}</p>
+
+
+{{#if articles}}
+	<script>
+		var articles = {{{ articles }}};
+		console.log(articles);
+	</script>
+{{/if}}
